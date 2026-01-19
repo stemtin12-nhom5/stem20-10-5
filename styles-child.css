@@ -1,0 +1,274 @@
+body {
+  margin: 0;
+  margin-top: -16px;
+  padding: 0;
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: large;
+  width: 1405px;
+  justify-self: center;
+}
+
+/* Những thuộc tính khác */
+
+.txt-small {
+  line-height: 0.8;
+}
+
+.txt-big {
+  line-height: 1.5;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.1;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Navbar */
+
+#navbar {
+  height: auto;
+  width: auto;
+  position: sticky;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.function-btn {
+  list-style-type: none;
+  margin: 0px;
+  margin-top: 15px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.function-btn li {
+  float: left;
+}
+
+.function-btn li a {
+  display: block;
+  color: rgb(16, 16, 16);
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+.function-btn li a:hover {
+  background-color: #e6e6e6;
+  cursor: pointer;
+}
+
+.logo {
+  margin: 0px;
+  padding: 0px 20px !important;
+}
+
+/* ---------------- */
+
+.about-title,
+.contact-title,
+.news-title,
+.forum-title,
+.more-title,
+.sound-title,
+.pic-gallery-title,
+.vid-gallery-title {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-left: 50px;
+}
+
+.pic-gallery img {
+  margin-left: 50px;
+  margin-bottom: 50px;
+  box-shadow: 0 0 20px rgb(39, 39, 39);
+}
+
+.vid-gallery h2 {
+  margin-left: 50px;
+}
+
+.vid-gallery video {
+  margin: 20px;
+}
+
+.more-list {
+  margin-bottom: 100px;
+  margin-left: 50px;
+}
+
+.more-list-title {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.forum-box {
+  margin: 50px;
+  border-radius: 15px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 64, 143, 1) 0%,
+    rgba(99, 7, 45, 1) 99%
+  );
+  width: 1000px;
+  padding: 25px;
+}
+
+.pinned {
+  background-color: rgba(248, 255, 157, 0.8) !important;
+}
+
+.forum-tag {
+  border-radius: 15px;
+  background-color: rgba(252, 225, 241, 0.6);
+  width: 950px;
+  padding: 25px;
+  margin-bottom: 20px;
+}
+
+.f-tag-name {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.f-tag-date {
+  font-size: 15px;
+  font-weight: 500;
+  color: #003a71;
+}
+
+.f-tag-content {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.news-title {
+  padding: 20px;
+}
+
+.news-tags {
+  display: grid;
+  grid-template-rows: 40% 60%;
+  height: 150px;
+  width: 700px;
+  background-color: rgb(237, 237, 237);
+  box-shadow: 0 0 20px rgb(74, 74, 74);
+  border-radius: 15px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+
+.news-tags-name {
+  padding-left: 15px;
+  align-self: center;
+}
+
+.news-tags-content a {
+  font-size: 25px;
+  font-weight: 500;
+  padding-left: 15px;
+  text-decoration: none;
+  color: #171717;
+}
+
+.news-tags-content a:hover {
+  color: #fc2497;
+}
+
+.sound-card {
+  display: grid;
+  grid-template-rows: 30% 70%;
+  width: 600px;
+  height: 150px;
+  background-color: #49a7ff;
+  border-radius: 25px;
+  margin: 35px;
+  margin-left: 100px;
+  box-shadow: 0 0 10px rgb(49, 49, 49);
+}
+
+.sound-name {
+  align-self: center;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  color: aliceblue;
+  border-radius: 25px 0px 0px 0px;
+  background: linear-gradient(
+    90deg,
+    rgba(112, 25, 165, 0.7) 0%,
+    rgba(0, 0, 105, 0) 100%
+  );
+}
+
+.sound-card audio {
+  align-self: center;
+  padding: 26px;
+  border-radius: 0px 0px 0px 25px;
+  background: linear-gradient(
+    90deg,
+    rgba(240, 62, 139, 0.7) 0%,
+    rgba(0, 0, 105, 0) 100%
+  );
+}
+
+.reverse-btn {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 25px;
+  color: #000000;
+  background-color: #ffd0e3;
+  border-radius: 15px;
+  padding: 10px 20px;
+  margin: 20px;
+  transition: 0.2s ease;
+}
+
+.reverse-btn:hover {
+  background-color: #ffb9d6;
+  transition: 0.2s ease;
+}
+
+/* ----------------- */
+
+footer {
+  margin-top: 100px;
+  height: 100px;
+  background-color: #171717;
+  color: aliceblue;
+  bottom: 0px;
+}
+
+footer a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+footer a:hover {
+  color: rgb(255, 71, 197);
+}
+
+.footer-container {
+  display: flex;
+  justify-self: center;
+  padding-top: 10px;
+}
+
+.footer-container div {
+  margin: 10px 20px;
+}

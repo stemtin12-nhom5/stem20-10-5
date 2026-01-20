@@ -6,7 +6,8 @@ body {
   font-weight: 400;
   font-style: normal;
   font-size: large;
-  width: 1405px;
+  width: 100%;
+  max-width: 1405px;
   justify-self: center;
 }
 
@@ -272,3 +273,4 @@ footer a:hover {
 .footer-container div {
   margin: 10px 20px;
 }
+

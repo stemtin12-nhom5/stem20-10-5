@@ -49,6 +49,11 @@
   float: left;
 }
 
+.logo {
+  background-color: #ffffff !important;
+  cursor: default !important;
+}
+
 .function-btn li a {
   display: block;
   color: rgb(16, 16, 16);
@@ -856,4 +861,5 @@ footer a:hover {
 .footer-container div {
   margin: 10px 20px;
 }
+
 

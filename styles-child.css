@@ -233,6 +233,66 @@ body {
   );
 }
 
+/* exxtraaaa */
+
+#extra {
+  height: 600px;
+  background-color: #ffffff;
+  margin-bottom: 100px;
+}
+
+.extra-title {
+  font-size: 50px;
+  font-weight: 600;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+.extra-container {
+  display: grid;
+  grid-template-columns: 350px 350px;
+  grid-template-rows: 150px 150px 150px;
+  justify-self: center;
+  margin-top: 25px;
+  gap: 25px;
+}
+
+.extra-container a {
+  display: grid;
+  text-decoration: none;
+  color: black;
+  grid-template-rows: 60% 40%;
+  background-color: #ffe4f0;
+  border-radius: 15px;
+  transition: transform 0.2s;
+  box-shadow: 0 0 10px rgb(117, 42, 71);
+  transition: 0.2s ease;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+}
+
+.extra-container a:hover {
+  cursor: pointer;
+  border-radius: 15px;
+  transform: scale(1.02);
+  box-shadow: 0 0 20px rgb(117, 42, 71);
+  transition: 0.2s ease;
+}
+
+.extra-container a div {
+  font-size: 20px;
+  font-weight: 500;
+  justify-self: start;
+  align-self: center;
+  margin-left: 5px;
+  padding: 10px 50px;
+  background-color: #ff98b7;
+  color: aliceblue;
+  border-radius: 15px;
+  transition: 0.2s ease;
+}
+
 .reverse-btn {
   text-decoration: none;
   font-weight: 600;
@@ -278,5 +338,6 @@ footer a:hover {
 .footer-container div {
   margin: 10px 20px;
 }
+
 
 
